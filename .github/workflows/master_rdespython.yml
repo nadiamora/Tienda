@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'rdespython'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_2d867521f6a34c148b24be616455aec8 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_c2cb7cc8fc784a02aeff5c0f843d058f }}
