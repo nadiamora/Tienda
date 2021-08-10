@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'Tienda.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+#Se establece la BD de Tienda
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
