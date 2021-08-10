@@ -12,7 +12,7 @@ class Producto(models.Model):
     def __str__(self):
         return "{0} ({1}) ({2}) ({3})".format(self.NombreProducto, self.DescripcionProducto, self.ClaveProducto, self.PrecioProducto)
     
-    
+#Creación de tabla estantes con los campos indicados   
 class Estante(models.Model):
     NombreEstante=models.CharField(max_length=30)
     Capacidad=models.PositiveBigIntegerField()
