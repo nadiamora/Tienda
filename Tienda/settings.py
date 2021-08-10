@@ -103,9 +103,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
-
+#Se establece el lenguaje en español México
 LANGUAGE_CODE = 'es-mx'
-
+#Se establece la zona horaria
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
