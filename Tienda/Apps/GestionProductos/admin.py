@@ -6,3 +6,4 @@ from Tienda.Apps.GestionProductos.models import *
 admin.site.register(Producto)
 admin.site.register(Estante)
 admin.site.register(Registro)
+#Tienda/Apps/GestionProductos
