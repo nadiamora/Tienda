@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-
+#Creación de tabla Producto con los campos indicados
 class Producto(models.Model):
     NombreProducto = models.CharField(max_length=30)
     DescripcionProducto = models.CharField(max_length=30)
@@ -21,7 +21,7 @@ class Estante(models.Model):
     def __str__(self):
         return "{0} ({1})".format(self.NombreEstante, self.Capacidad)
 
-
+#Establecer unión de productos y estantes mediante la tabla Registro
 class Registro(models.Model):
     Producto = models.ForeignKey(Producto, null=False, blank=False, on_delete=models.CASCADE)
     Estante = models.ForeignKey(Estante, null=False, blank=False, on_delete=models.CASCADE)
