@@ -30,3 +30,4 @@ class Registro(models.Model):
     def __str__(self):
         cadena = "{0} => {1}"
         return cadena.format(self.Producto, self.Estante.NombreEstante)
+#Los modelos anteriores son utilizados para establecer las tablas en la base de datos.
